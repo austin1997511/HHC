@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2695">
-	<link rel="stylesheet" type="text/css" href="style.css?3784">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?577">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2830">
+	<link rel="stylesheet" type="text/css" href="style.css?8769">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?8940">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Gallery</title>
@@ -26,7 +26,7 @@
 <div class="page-container">
     
 <!-- bloc-1 -->
-<div class="bloc bloc-fill-screen bg-海報-22 bg-t-edge tc-teal-blue l-bloc" id="bloc-1">
+<div class="bloc bloc-fill-screen tc-teal-blue bg-ggaallert d-bloc animated fadeInUp" id="bloc-1" data-appear-anim-style="fadeInUp">
 	<div class="container fill-bloc-top-edge sticky-nav">
 		<div class="row">
 			<div class="col-12">
@@ -42,9 +42,6 @@
 							</li>
 							<li class="nav-item">
 								<a href="about.html" class="nav-link"><strong>About</strong></a>
-							</li>
-							<li class="nav-item">
-								<a href="skill.html" class="nav-link"><strong>Skill</strong></a>
 							</li>
 							<li class="nav-item">
 								<a href="gallery.html" class="nav-link a-btn"><strong>Gallery</strong></a>
@@ -75,9 +72,12 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="mg-md text-center h2-gallery-style">
-					<strong>Gallery</strong>
+				<h2 class="mg-md text-center h2-gallery-style ">
+					All my works.<br>
 				</h2>
+				<p class="text-lg-center p-bloc-6-margin-bottom animated fadeInUp none animDelay2" data-appear-anim-style="fadeInUp">
+					<strong>點照片可以直接到作品頁喔！</strong>
+				</p>
 			</div>
 			<div class="col-md-6">
 				<div class="row voffset animated fadeInLeft" data-appear-anim-style="fadeInLeft">
@@ -125,7 +125,7 @@
 						</p>
 					</div>
 					<div class="col-lg-3 order-lg-2">
-						<img src="img/lazyload-ph.png" data-src="img/資產%201.png" class="img-fluid rounded-circle mx-auto d-block lazyload" alt="placeholder user" />
+						<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-12',this)"><img src="img/lazyload-ph.png" data-src="img/資產%201.png" class="img-fluid rounded-circle mx-auto d-block lazyload" alt="placeholder user" /></a>
 					</div>
 				</div>
 			</div>
@@ -151,7 +151,7 @@
 						<div class="row voffset animated fadeInRight" data-appear-anim-style="fadeInRight">
 							<div class="col-lg-3">
 								<div class="text-center">
-									<img src="img/lazyload-ph.png" data-src="img/資產%202.png" class="img-fluid rounded-circle mx-auto d-block lazyload" alt="資產%202 1" />
+									<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-11',this)"><img src="img/lazyload-ph.png" data-src="img/資產%202.png" class="img-fluid rounded-circle mx-auto d-block lazyload" alt="資產%202 1" /></a>
 								</div>
 							</div>
 							<div class="col">
@@ -168,7 +168,7 @@
 						</div>
 						<div class="row voffset animated fadeInRight" data-appear-anim-style="fadeInRight">
 							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/資產%204.png" class="img-fluid rounded-circle mx-auto d-block lazyload" alt="placeholder user" />
+								<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-14',this)"><img src="img/lazyload-ph.png" data-src="img/資產%204.png" class="img-fluid rounded-circle mx-auto d-block lazyload" alt="placeholder user" /></a>
 							</div>
 							<div class="col">
 								<h4 class="text-center text-lg-left mg-sm h4-14-style">
@@ -278,7 +278,7 @@
 							<strong>工作室企劃書</strong>
 						</p>
 						<div class="text-center">
-							<a href="downloads/畢業製作企劃書.pdf" class="btn btn-white-2 btn-sm btn-download-margin-top btn-rd" data-toggle="modal" data-target="No Selection" target="_blank">download</a>
+							<a href="downloads/畢業展企劃書.pdf" class="btn btn-white-2 btn-sm btn-download-margin-top btn-rd" data-toggle="modal" data-target="No Selection" target="_blank">download</a>
 						</div>
 					</div>
 					<div class="col bloc-0-bloc-8-margin-top">
@@ -287,7 +287,7 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<h4 class="mg-md h4-bloc-8-margin-top text-lg-center tc-teal-blue ">
+						<h4 class="mg-md h4-bloc-8-margin-top text-lg-center tc-teal-blue">
 							<strong>2.<br><br>網站與視覺</strong>
 						</h4>
 					</div>
@@ -356,7 +356,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row row-54-margin-top">
+				<div class="row row-54-margin-top animated fadeInUp" data-appear-anim-style="fadeInUp">
 					<div class="col-lg-3 offset-lg-0">
 						<p class="text-lg-center p-62-style">
 							現代<br>modren
@@ -447,7 +447,7 @@
 <!-- bloc-8 END -->
 
 <!-- bloc-9 -->
-<div class="bloc tc-outer-space" id="bloc-9">
+<div class="bloc tc-outer-space l-bloc" id="bloc-9">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col bloc-bloc-8-margin-bottom">
@@ -551,7 +551,7 @@
 <!-- bloc-10 END -->
 
 <!-- bloc-11 -->
-<div class="bloc tc-white bgc-dark-jungle-green" id="bloc-11">
+<div class="bloc tc-white bgc-dark-jungle-green d-bloc" id="bloc-11">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col">
@@ -649,7 +649,7 @@
 <!-- bloc-11 END -->
 
 <!-- bloc-12 -->
-<div class="bloc tc-khaki-htmlcss-khaki bgc-dark-jungle-green" id="bloc-12">
+<div class="bloc tc-khaki-htmlcss-khaki bgc-dark-jungle-green d-bloc" id="bloc-12">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col">
@@ -675,15 +675,26 @@
 					我希望可以將上一個作品做的更加完整<br>於是我加入企業形象，並著手設計明片、網站等等<br>希望可以打造一個完整且連貫的作品
 				</p>
 				<h6 class="mg-md text-lg-center tc-light-pink h6-設計理念-style">
-					<strong>型錄與基本識別</strong>
+					<strong>線上型錄</strong>
 				</h6>
 				<p class="text-lg-center p-bloc-12-margin-top">
-					以下為型錄與品牌基本識別
+					以下為線上型錄，另有電子書可供下載
 				</p>
 				<div class="row">
 					<div class="col">
-					</div>
-					<div class="col">
+						<img src="img/lazyload-ph.png" data-src="img/Alcohol%20Catalog-01.png" class="img-fluid mx-auto d-block img-bloc-12-style lazyload" alt="Alcohol%20Catalog 01" />
+						<p class="text-lg-center p-81-margin-top">
+							型錄
+						</p>
+						<div class="text-center">
+							<a href="downloads/MYTH%20GREECE%20Catalog.pdf" class="btn btn-d btn-sm btn-download-style btn-rd animated pulse animLoopInfinite animSpeedLazy" data-appear-anim-style="pulse" target="_blank">download</a>
+						</div>
+						<h6 class="mg-md tc-light-pink h6-網頁設計-margin-top text-lg-center">
+							網頁設計
+						</h6>
+						<p class="text-lg-center">
+							此為我第一次寫網頁程式碼，共有四個分頁<br>分別是 HOME、CATALOG、INTRODUTION、PURCHASE<br>因為希望打造完整的識別，於是自學網頁程式碼所做成的<br><br>
+						</p>
 					</div>
 				</div>
 				<div class="row row-bloc-12-margin-top align-items-center">
@@ -692,15 +703,13 @@
 							<img src="img/lazyload-ph.png" data-src="img/截圖%202020-05-20%20下午5.08.57.png" class="img-fluid lazyload" alt="截圖%202020 05-20%20下午5.08.57" />
 						</div>
 						<div class="text-center">
-							<a href="index.html" class="btn btn-rd btn-bloc-12-style animated pulse animLoopInfinite btn-sm btn-d" data-appear-anim-style="pulse">click to website</a>
+							<a href="https://austin1997511.github.io/austin1.2/" class="btn btn-rd btn-bloc-12-style animated pulse animLoopInfinite btn-sm btn-d" data-appear-anim-style="pulse" target="_blank">click to website</a>
 						</div>
 					</div>
-					<div class="bloc-bloc-12-margin-top col order-lg-0 align-self-center">
-						<h6 class="mg-md tc-light-pink h6-網頁設計-margin-top">
-							網頁設計
-						</h6>
-						<p>
-							此為我第一次寫網頁程式碼，共有四個分頁<br>分別是 HOME、CATALOG、INTRODUTION、PURCHASE<br>因為希望打造完整的識別，於是自學網頁程式碼所做成的<br>
+					<div class="bloc-bloc-12-margin-top order-lg-0 align-self-center col-lg-5">
+						<img src="img/lazyload-ph.png" data-src="img/j;3u,4.png" class="img-fluid mx-auto d-block img-j-3u-style lazyload" alt="j;3u,4" />
+						<p class="text-lg-center p-83-margin-top">
+							此為程式碼部分節錄
 						</p>
 					</div>
 				</div>
@@ -709,6 +718,62 @@
 	</div>
 </div>
 <!-- bloc-12 END -->
+
+<!-- bloc-14 -->
+<div class="bloc bgc-pastel-blue l-bloc" id="bloc-14">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<div class="row">
+					<div class="col">
+						<h4 class="mg-md text-lg-center tc-white-2">
+							<strong>-</strong>
+						</h4>
+						<h4 class="mg-md text-lg-center h4-bloc-13-style tc-white-2">
+							<strong>2016 | Environment Poster</strong>
+						</h4><img src="img/lazyload-ph.png" data-src="img/ejo%20ej%20o-1.png" class="img-fluid mx-auto d-block img-ejo-ej-o-1-p-style lazyload" alt="ejo%20ej%20o 1" />
+						<h6 class="mg-md text-lg-center h6-bloc-13-style tc-white-2">
+							以污染與動物的相互關係為設計方向<br>傳達動物在自然界往往處於被動與受害者的角色<br>而不經意間，帶來的傷害往往比我們想像的更大
+						</h6>
+						<h5 class="mg-md text-lg-center tc-white-2 h5-設計手法-margin-top">
+							設計手法
+						</h5>
+						<h6 class="mg-md text-lg-center h6-27-style tc-white-2">
+							主要是利用合成技術將動物與污染源合成<br>另外結合字體設計來增加主題性
+						</h6>
+						<div class="row row-bloc-13-margin-top">
+							<div class="col">
+								<img src="img/lazyload-ph.png" data-src="img/海龜%2010.0%20最終版拷貝.png" class="img-fluid mx-auto d-block lazyload" alt="海龜%2010.0%20最終版拷貝" />
+								<h6 class="text-lg-center mg-sm tc-white-2 h6-海洋污染．拯救海龜-style">
+									海洋污染．拯救海龜
+								</h6>
+							</div>
+							<div class="col">
+								<img src="img/lazyload-ph.png" data-src="img/紅毛猩猩%209.0%20最終版拷貝.png" class="img-fluid mx-auto d-block lazyload" alt="紅毛猩猩%209.0%20最終版拷貝" />
+								<h6 class="mg-md tc-white-2 text-lg-center h6-濫墾濫伐．拯救猩猩-style">
+									濫墾濫伐．拯救猩猩
+								</h6>
+							</div>
+							<div class="col">
+								<img src="img/lazyload-ph.png" data-src="img/鯊魚%208.0%20最終版拷貝.png" class="img-fluid mx-auto d-block lazyload" alt="鯊魚%208.0%20最終版拷貝" />
+								<h6 class="mg-md tc-white-2 text-lg-center h6-過度捕撈．拯救鯊魚-style">
+									過度捕撈．拯救鯊魚
+								</h6>
+							</div>
+							<div class="col">
+								<img src="img/lazyload-ph.png" data-src="img/犀牛%2010.0%20最終版拷貝.png" class="img-fluid mx-auto d-block lazyload" alt="犀牛%2010.0%20最終版拷貝" />
+								<h6 class="mg-md tc-white-2 text-lg-center h6-盜獵動物．拯救犀牛-style">
+									盜獵動物．拯救犀牛
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-14 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
@@ -719,9 +784,9 @@
 <!-- Main container END -->
     
 
-<script src="./js/jquery-3.3.1.min.js?9732"></script>
-<script src="./js/bootstrap.bundle.min.js?7055"></script>
-<script src="./js/blocs.min.js?8189"></script>
+<script src="./js/jquery-3.3.1.min.js?6730"></script>
+<script src="./js/bootstrap.bundle.min.js?537"></script>
+<script src="./js/blocs.min.js?7135"></script>
 <script src="./js/lazysizes.min.js" defer></script>
 <!-- Additional JS END -->
 

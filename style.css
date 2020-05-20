@@ -86,9 +86,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	-o-background-size: auto!important;
 	background-size: auto!important;
 }
-.bg-t-edge{
-	background: top no-repeat;
-}
 .bg-b-edge{
 	background: bottom no-repeat;
 }
@@ -439,6 +436,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .hero-first-col-mb{
 	margin-bottom:30px;
+	margin-top:-718px;
 }
 .link-style{
 	font-family:"Montserrat";
@@ -724,7 +722,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-24-style{
 	width:60%;
-	margin-left:244px;
+	margin-left:226px;
 	margin-top:-10px;
 }
 .h6-margin-top{
@@ -1108,7 +1106,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-gallery-style{
 	letter-spacing:1px;
-	margin-bottom:39px;
+	margin-bottom:78px;
+	margin-top:-49px;
 }
 .container-div-bloc-8-style{
 	width:47.82%;
@@ -1244,7 +1243,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:121px;
 }
 .h6-以下為網頁導覽影片與教學廣告-margin-top{
-	margin-top:-10px;
+	margin-top:35px;
 }
 .h6-以下為客戶使用成品-margin-top{
 	margin-top:64px;
@@ -1330,7 +1329,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:28px;
 }
 .row-bloc-12-margin-top{
-	margin-top:79px;
+	margin-top:60px;
 }
 .btn-bloc-12-style{
 	font-weight:bold;
@@ -1359,7 +1358,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:-5px;
 }
 .h6-網頁設計-margin-top{
-	margin-top:-58px;
+	margin-top:66px;
 }
 .h6-設計理念及手法-margin-top{
 	margin-top:61px;
@@ -1389,6 +1388,86 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:40px;
 	margin-bottom:-31px;
 }
+.img-bloc-12-style{
+	width:237px;
+	margin-top:35px;
+}
+.p-81-margin-top{
+	margin-top:19px;
+}
+.btn-14-margin-top{
+	margin-top:-17px;
+	font-weight:bold;
+}
+.btn-點我看型錄-style{
+	font-weight:bold;
+}
+.container-div-bloc-8-margin-top{
+	margin-top:17px;
+}
+.btn-download-style{
+	font-weight:bold;
+}
+.img-j-3u-style{
+	width:273px;
+}
+.container-div-bloc-12-margin-top{
+	margin-top:105px;
+}
+.p-83-margin-top{
+	margin-top:-11px;
+}
+.h4-bloc-13-style{
+	letter-spacing:1px;
+}
+.img-ejo-ej-o-p-style{
+	width:300px;
+	height:300px;
+}
+.img-ejo-ej-o-1-p-style{
+	width:502px;
+}
+.p-bloc-13-margin-top{
+	margin-top:44px;
+}
+.h6-bloc-13-style{
+	letter-spacing:1px;
+	line-height:24px;
+	margin-top:35px;
+}
+.h5-設計手法-margin-top{
+	margin-top:72px;
+	letter-spacing:1px;
+	margin-bottom:13px;
+}
+.h6-27-style{
+	line-height:24px;
+	margin-top:2px;
+}
+.row-bloc-13-margin-top{
+	margin-top:43px;
+}
+.h6-海洋污染．拯救海龜-style{
+	letter-spacing:1px;
+}
+.h6-濫墾濫伐．拯救猩猩-style{
+	letter-spacing:1px;
+}
+.h6-過度捕撈．拯救鯊魚-style{
+	letter-spacing:1px;
+}
+.h6-盜獵動物．拯救犀牛-style{
+	letter-spacing:1px;
+}
+.p-bloc-6-margin-bottom{
+	margin-bottom:-6px;
+	margin-top:7px;
+}
+.img-1-style{
+	width:985px;
+	margin-left:-3px;
+	margin-right:-19px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1397,6 +1476,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-dark-jungle-green{
 	background-color:#171919;
+}
+.bgc-pastel-blue{
+	background-color:#B5C1D5;
 }
 
 /* Text colour styles */
@@ -1424,6 +1506,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-light-pink{
 	color:#FFA9B7!important;
+}
+.tc-white-2{
+	color:#FFFFFF!important;
 }
 
 /* Button colour styles */
@@ -1477,11 +1562,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-海報-22{
-	background-image:url("img/海報-22.png");
+.bg-hihi-1{
+	background-image:url("img/hihi_1.png");
 }
-.bg-about-1{
-	background-image:url("img/about_1.png");
+.bg-aabboouutt{
+	background-image:url("img/aabboouutt.png");
+}
+.bg-ggaallert{
+	background-image:url("img/ggaallert.png");
 }
 
 
